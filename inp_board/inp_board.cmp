@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Sat 10 Aug 2013 12:25:40 PM MSK
+
+BeginCmp
+TimeStamp = /5205F736;
+Reference = XP1;
+ValeurCmp = DIP_8X2;
+IdModule  = DIP_8X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5205ED18;
+Reference = XS1;
+ValeurCmp = HDMI_SOCKET;
+IdModule  = HDMI_SOCKET;
+EndCmp
+
+EndListe
