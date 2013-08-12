@@ -30,14 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:gost
-LIBS:InputASRC-cache
+LIBS:inp_board-cache
 EELAYER 27 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "10 aug 2013"
+Date "12 aug 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -310,4 +310,218 @@ Text Label 4800 1800 0    60   ~ 0
 +5VDC
 Text Label 4800 1600 0    60   ~ 0
 HOT
+$Comp
+L RCA_CONN XP2
+U 1 1 5208E51C
+P 9000 1850
+F 0 "XP2" H 8950 2250 60  0000 C CNN
+F 1 "SPDIF1" H 9000 1450 60  0000 C CNN
+F 2 "~" H 9200 1850 60  0000 C CNN
+F 3 "~" H 9200 1850 60  0000 C CNN
+	1    9000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L RCA_CONN XP3
+U 1 1 5208E52B
+P 9000 2800
+F 0 "XP3" H 8950 3200 60  0000 C CNN
+F 1 "SPDIF2" H 9000 2400 60  0000 C CNN
+F 2 "~" H 9200 2800 60  0000 C CNN
+F 3 "~" H 9200 2800 60  0000 C CNN
+	1    9000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L RCA_CONN XP4
+U 1 1 5208E53A
+P 9000 3800
+F 0 "XP4" H 8950 4200 60  0000 C CNN
+F 1 "SPDIF3" H 9000 3400 60  0000 C CNN
+F 2 "~" H 9200 3800 60  0000 C CNN
+F 3 "~" H 9200 3800 60  0000 C CNN
+	1    9000 3800
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	9900 3800 9900 1100
+Wire Bus Line
+	9900 1100 10400 1100
+Wire Bus Line
+	10400 1100 10400 5500
+Entry Wire Line
+	9800 1750 9900 1650
+Entry Wire Line
+	9800 1950 9900 1850
+Entry Wire Line
+	9800 2700 9900 2600
+Entry Wire Line
+	9800 2900 9900 2800
+Wire Wire Line
+	9500 1750 9800 1750
+Wire Wire Line
+	9800 1950 9500 1950
+Wire Wire Line
+	9500 2700 9800 2700
+Wire Wire Line
+	9500 2900 9800 2900
+Entry Wire Line
+	9800 3700 9900 3600
+Entry Wire Line
+	9800 3900 9900 3800
+Wire Wire Line
+	9500 3700 9800 3700
+Wire Wire Line
+	9500 3900 9800 3900
+Text Label 9550 3900 0    60   ~ 0
+D3-
+Text Label 9550 3700 0    60   ~ 0
+D3+
+Text Label 9550 2900 0    60   ~ 0
+D2-
+Text Label 9550 2700 0    60   ~ 0
+D2+
+Text Label 9550 1950 0    60   ~ 0
+D1-
+Text Label 9550 1750 0    60   ~ 0
+D1+
+Entry Wire Line
+	10400 3100 10500 3000
+Entry Wire Line
+	10400 2900 10500 2800
+Entry Wire Line
+	10400 2700 10500 2600
+Entry Wire Line
+	10400 2500 10500 2400
+Entry Wire Line
+	10400 2300 10500 2200
+Entry Wire Line
+	10400 2100 10500 2000
+Entry Wire Line
+	10400 1900 10500 1800
+Entry Wire Line
+	10400 1700 10500 1600
+Wire Wire Line
+	11500 3100 11500 3000
+Wire Wire Line
+	11500 3000 10500 3000
+Wire Wire Line
+	10500 2800 11700 2800
+Wire Wire Line
+	11700 2800 11700 3100
+Wire Wire Line
+	10500 2600 11900 2600
+Wire Wire Line
+	11900 2600 11900 3100
+Wire Wire Line
+	10500 2400 12100 2400
+Wire Wire Line
+	12100 2400 12100 3100
+Wire Wire Line
+	10500 2200 12300 2200
+Wire Wire Line
+	12300 2200 12300 3100
+Wire Wire Line
+	10500 2000 12500 2000
+Wire Wire Line
+	12500 2000 12500 3100
+Wire Wire Line
+	10500 1800 12700 1800
+Wire Wire Line
+	12700 1800 12700 3100
+Wire Wire Line
+	10500 1600 12900 1600
+Wire Wire Line
+	12900 1600 12900 3100
+Text Label 10600 3000 0    60   ~ 0
+D1+
+Text Label 10600 2800 0    60   ~ 0
+D2+
+Text Label 10600 2600 0    60   ~ 0
+D3+
+Text Label 10600 2400 0    60   ~ 0
+DGND
+Text Label 10600 2200 0    60   ~ 0
+DGND
+Text Label 10600 2000 0    60   ~ 0
+DGND
+$Comp
+L DIP_8X2 XP5
+U 1 1 5208E7E0
+P 12200 3600
+F 0 "XP5" H 12100 4600 60  0000 C CNN
+F 1 "DIP_8X2" H 12200 2600 60  0000 C CNN
+F 2 "" H 12400 3600 60  0000 C CNN
+F 3 "" H 12400 3600 60  0000 C CNN
+	1    12200 3600
+	0    1    1    0   
+$EndComp
+Text Label 10600 1800 0    60   ~ 0
+DGND
+Text Label 10600 1600 0    60   ~ 0
+DGND
+Entry Wire Line
+	10400 5500 10500 5600
+Entry Wire Line
+	10400 5300 10500 5400
+Entry Wire Line
+	10400 5100 10500 5200
+Entry Wire Line
+	10400 4900 10500 5000
+Entry Wire Line
+	10400 4700 10500 4800
+Entry Wire Line
+	10400 4500 10500 4600
+Entry Wire Line
+	10400 4300 10500 4400
+Entry Wire Line
+	10400 4100 10500 4200
+Wire Wire Line
+	10500 4200 11500 4200
+Wire Wire Line
+	11500 4200 11500 4100
+Wire Wire Line
+	10500 4400 11700 4400
+Wire Wire Line
+	11700 4400 11700 4100
+Wire Wire Line
+	10500 4600 11900 4600
+Wire Wire Line
+	11900 4600 11900 4100
+Wire Wire Line
+	10500 4800 12100 4800
+Wire Wire Line
+	12100 4800 12100 4100
+Wire Wire Line
+	10500 5000 12300 5000
+Wire Wire Line
+	12300 5000 12300 4100
+Wire Wire Line
+	10500 5200 12500 5200
+Wire Wire Line
+	12500 5200 12500 4100
+Wire Wire Line
+	10500 5400 12700 5400
+Wire Wire Line
+	12700 5400 12700 4100
+Wire Wire Line
+	10500 5600 12900 5600
+Wire Wire Line
+	12900 5600 12900 4100
+Text Label 10600 4200 0    60   ~ 0
+D1-
+Text Label 10600 4400 0    60   ~ 0
+D2-
+Text Label 10600 4600 0    60   ~ 0
+D3-
+Text Label 10600 4800 0    60   ~ 0
+DGND
+Text Label 10600 5000 0    60   ~ 0
+DGND
+Text Label 10600 5200 0    60   ~ 0
+DGND
+Text Label 10600 5400 0    60   ~ 0
+DGND
+Text Label 10600 5600 0    60   ~ 0
+DGND
 $EndSCHEMATC

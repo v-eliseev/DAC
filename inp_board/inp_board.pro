@@ -1,8 +1,13 @@
-update=Sat 10 Aug 2013 12:11:18 PM MSK
+update=12/08/2013 17:53:51
 last_client=pcbnew
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
-LibDir=/home/vlad/KiCAD
+LibDir=../lib
 NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
@@ -40,32 +45,27 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=gost
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=inp_board.net
 UseCmpFile=1
-PadDrill="    0.900000"
-PadDrillOvalY="    2.100000"
-PadSizeH="    1.500000"
-PadSizeV="    2.700000"
-PcbTextSizeV="    1.500000"
-PcbTextSizeH="    1.500000"
-PcbTextThickness="    0.300000"
-ModuleTextSizeV="    1.000000"
-ModuleTextSizeH="    1.000000"
-ModuleTextSizeThickness="    0.150000"
-SolderMaskClearance="    0.000000"
-SolderMaskMinWidth="    0.000000"
-DrawSegmentWidth="    0.200000"
-BoardOutlineThickness="    0.100000"
-ModuleOutlineThickness="    0.150000"
+PadDrill=0.000000000000
+PadDrillOvalY=0.000000000000
+PadSizeH=0.300000000000
+PadSizeV=2.600000000000
+PcbTextSizeV=1.500000000000
+PcbTextSizeH=1.500000000000
+PcbTextThickness=0.300000000000
+ModuleTextSizeV=1.000000000000
+ModuleTextSizeH=1.000000000000
+ModuleTextSizeThickness=0.150000000000
+SolderMaskClearance=0.000000000000
+SolderMaskMinWidth=0.000000000000
+DrawSegmentWidth=0.200000000000
+BoardOutlineThickness=0.100000000000
+ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=/home/vlad/KiCAD
+LibDir=../lib
 LibName1=sockets
 LibName2=connect
 LibName3=discret
